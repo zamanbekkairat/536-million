@@ -1,0 +1,66 @@
+@keyframes bubbles {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    90% {
+        opacity: 0;
+    }
+    95% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes movementY {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes shadow {
+    from {
+        transform: translateX(-50%) scale(1);
+    }
+    to {
+        transform: translateX(-50%) scale(0.7);
+    }
+}
+
+@keyframes change-bg {
+    33% {
+        background: #BD431D;
+    }
+    67% {
+        background: #2A41A8;
+    }
+}
+
+@keyframes change-visual {
+    33% {
+        background: url(../img/visual-2_1.png) no-repeat;
+        background-size: contain;
+    }
+    67% {
+        background: url(../img/visual-3_1.png) no-repeat;
+        background-size: contain;
+    }
+}
+
+@keyframes change-accordion {
+    33% {
+        background: #EEC78F;
+    }
+    67% {
+        background: #91D0DC;
+    }
+}
